@@ -76,6 +76,8 @@ class Dog
       dog = dog_data[0]
       dog_object = new(id: dog[0], name: dog[1], breed: dog[2])
     else 
-      
-    
+      dog_object = self.create(name: name, breed: breed)
+    end 
+    dog_object 
+  end 
 end 
