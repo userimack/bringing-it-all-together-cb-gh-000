@@ -75,6 +75,7 @@ class Dog
     if ! dog_data.empty? 
       dog = dog_data[0]
       dog_object = new(id: dog[0], name: dog[1], breed: dog[2])
+    else 
       
     
 end 
